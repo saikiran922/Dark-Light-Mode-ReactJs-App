@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+  padding: 30px;
+}
+
+.card-container {
+  border-radius: 12px;
+  border: 1px solid #000000;
+  padding: 24px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .card-container {
+    width: 60%;
+    /* height: 40px; */
+  }
+}
+
+.light-mode {
+  color: #000000;
+  background-color: #ffffff;
+}
+.dark-mode {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+}
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+
+.btn {
+  padding: 12px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  border-radius: 8px;
+}
+@media screen and (max-width: 768px) {
+  .btn {
+    font-size: 18px;
+    padding: 15px;
+  }
+}
